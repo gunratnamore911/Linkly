@@ -4,7 +4,9 @@
   "description": "",
   "main": "server.js",
   "engines": {
-    "node": "14.15.3"
+    "node": "14.15.3",
+    "express": "4.17.1",
+    "mongoose": "6.0.5"
   },
   "scripts": {
     "start": "node server",
