@@ -1,0 +1,18 @@
+.card_main {
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.ts {
+  background-color: #191919;
+  color: #64b5f6;
+  border: none;
+  cursor: pointer;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.card_h1 {
+  font-size: 2rem;
+}

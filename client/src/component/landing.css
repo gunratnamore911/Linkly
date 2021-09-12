@@ -1,0 +1,67 @@
+.lan1 {
+  align-items: center;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 14rem;
+}
+
+.lanpara1 {
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 2rem;
+}
+
+.getstarted {
+  text-align: center;
+  margin-top: 5rem;
+  width: 100%;
+}
+.gs1 {
+  width: 35%;
+  height: 7vh;
+  cursor: pointer;
+  border-radius: 3rem;
+  color: #fff;
+  font-size: large;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+
+  background-color: rgb(125, 70, 228);
+}
+.gs1:hover {
+  transform: translateY(-5px);
+
+  background-color: rgb(107, 65, 185);
+}
+.gs1:active {
+  transform: translateY(2px);
+}
+.landing_main {
+  height: 100vh;
+}
+.lan_para {
+  margin-top: 15rem;
+}
+@media (max-width: 638px) {
+  .gs1 {
+    width: 50%;
+  }
+}
+@media (min-width: 1240px) {
+  .gs1 {
+    width: 20%;
+  }
+}
+
+@media (max-width: 522px) {
+  .gs1 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 458px) {
+  .gs1 {
+    width: 65%;
+  }
+}

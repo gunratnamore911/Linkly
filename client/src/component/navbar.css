@@ -1,0 +1,40 @@
+.nav1 {
+  height: 10vh;
+  width: 100%;
+  background-color: #212529;
+  color: #fff;
+  align-items: center;
+  font-size: 3rem;
+  z-index: 100;
+  top: 0;
+  position: sticky;
+}
+.navbar:active,
+.navbar:hover {
+  text-decoration: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between !important;
+  padding: 1rem;
+}
+.h1nav Link {
+  text-decoration: none;
+}
+.mat1btn {
+  width: 10rem;
+  height: 6vh;
+}
+.h1nav {
+  text-decoration: none;
+  font-size: 3.5rem;
+  list-style: none;
+  color: #fff;
+}
+
+.h1nav:hover,
+.h1nav:focus,
+.h1nav:active {
+  text-decoration: none;
+  color: #fff;
+}

@@ -1,0 +1,60 @@
+.sharing {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+
+  background: #191919;
+}
+.bgblack {
+  top: 0;
+  background: #191919;
+  height: 100vh;
+}
+.h1share_name {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 3rem;
+}
+.sharebtn {
+  width: 80%;
+  overflow: hidden;
+  height: 7vh;
+  cursor: pointer;
+  background-color: #64b5f6;
+  color: #fff;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.ntl {
+  color: #fff;
+}
+@media (max-width: 1390px) {
+  .sharebtn {
+    width: 50%;
+  }
+}
+@media (max-width: 1500px) {
+  .sharebtn {
+    width: 50%;
+  }
+}
+@media (max-width: 700px) {
+  .sharebtn {
+    width: 70%;
+  }
+}
+.h1share_name {
+  color: #fff;
+}
+@media (max-width: 450px) {
+  .sharebtn {
+    width: 90%;
+  }
+}
+
+.h1share {
+  text-align: center !important;
+  margin-top: 4rem;
+  font-size: 3rem !important;
+}
