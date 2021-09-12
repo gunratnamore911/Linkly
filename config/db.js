@@ -12,6 +12,7 @@ const connectDb = async () => {
     console.log("Mongodb Connected".blue);
   } catch (err) {
     console.log(err.message);
+    console.log("gm error db");
 
     process.exit(1);
   }
