@@ -36,6 +36,7 @@ app.get("/get/links/:id", async (req, res) => {
     return res.status(500).send("Server Error");
   }
 });
+
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
   app.get("*", (req, res) => {
