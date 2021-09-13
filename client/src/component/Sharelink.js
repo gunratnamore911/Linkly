@@ -1,6 +1,6 @@
 import React from "react";
 const Sharelink = ({ uid }) => {
-  const link = window.location.origin + "/get/links" + "/" + uid;
+  const link = window.location.origin + "/get" + "/" + uid;
 
   return (
     <div>
