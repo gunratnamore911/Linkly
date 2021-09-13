@@ -30,7 +30,7 @@ const App = () => {
         <Route exact path="/register" component={Register}></Route>
         <Route exact path="/dashboard" component={DashBoard} />
         <Route exact path="/login" component={Login}></Route>
-        <Route path="/get/links/:id" component={Tempo} />
+        <Route path="/get/:id" component={Tempo} />
       </Switch>
       <p className="foot">
         &copy;{data} All Rights Reserved <br />
